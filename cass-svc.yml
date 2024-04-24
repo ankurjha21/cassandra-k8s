@@ -10,7 +10,7 @@ spec:
   ports:
   - port: 9042
     protocol: TCP
-    targetPort: 9044
+    targetPort: 9042
   selector:
     app: cassandra
   sessionAffinity: None
